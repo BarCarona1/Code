@@ -1,7 +1,4 @@
-* {
-  box-sizing: border-box; 
-  font-family:Arial, Helvetica, sans-serif; 
-}
+* { box-sizing: border-box; }
 
 ul {
   background-color: #555555;
@@ -50,11 +47,7 @@ nav > ul > li > ul > li:hover {
   background-color: #333333;
 }
 nav > ul > li > ul {
-  top: 64px;
-  left: 492.5px;
-  width: 157.5px;
   display: none;
-  background-color: #666666;
 }
 
 nav > ul > li:hover > ul {
@@ -71,12 +64,4 @@ nav {
 
 nav > ul > li > ul > li > ul > li:hover {
     background-color: #333333;
-}
-
-nav > ul > li > ul > li > ul {
-  display: none;
-}
-
-nav > ul > li > ul > li:hover > ul {
-  display: block;
 }
